@@ -1,6 +1,7 @@
 package com.example.thegreat.firstapp;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -105,7 +106,8 @@ public class AuthFirebase  extends AppCompatActivity{
     private void updateUI(FirebaseUser user) {
         hideProgressDialog();
         if (user != null) {
-
+            Intent intent = new Intent(AuthFirebase.this, CoursesActivity.class);
+            startActivity(intent);
         } else {
 
         }

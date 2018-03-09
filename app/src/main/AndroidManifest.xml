@@ -22,7 +22,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".AuthFirebase" />
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CoursesActivity"></activity>
     </application>
 
 </manifest>
